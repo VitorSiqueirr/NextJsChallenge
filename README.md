@@ -2,7 +2,7 @@
 
 # Overview
 
-The challenge consists of converting the [**Rooms**](https://gitlab.com/henrique.yuji/trainees-react-separation-of-concerns-2) application to NextJS and deploying it to Vercel.
+The challenge consists of converting the Rooms application to NextJS and deploying it to Vercel.
 
 # Requirements
 
