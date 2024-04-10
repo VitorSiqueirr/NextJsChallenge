@@ -1,0 +1,44 @@
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primaryColor);
+  z-index: 1000;
+  position: relative;
+  box-shadow: 0px 2px 4px 1px #6e6e6e60;
+}
+
+.title {
+  margin-left: 40px;
+  transition: all 0.3s;
+  padding: 0 0.5rem;
+}
+
+.navbar {
+  margin-right: 20px;
+}
+
+.navbarList {
+  display: flex;
+}
+
+.navbarListItem {
+  margin-left: 20px;
+  padding: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.navBarLinkItem:visited {
+  color: #000000;
+}
+
+.navbarListItem:hover,
+.title:hover {
+  border-radius: 0.25rem;
+  background-color: #c0dbff;
+  box-shadow: 0px 0px 4px 1px #c0dbff;
+}

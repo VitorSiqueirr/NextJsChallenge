@@ -1,0 +1,40 @@
+@mixin cellBorder {
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-radius: 0.5rem 0.5rem 0 0;
+  box-shadow: 0px 0px 2px 1px #0000002d inset;
+}
+
+.calendarTopLeftCorner {
+  grid-row: 1;
+  grid-column: 1;
+  border-top: 1px solid gray;
+  @include cellBorder();
+}
+
+.timeMarker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  @include cellBorder();
+  border-radius: 0;
+}
+
+.weekday {
+  position: sticky;
+  top: 0;
+  grid-row: 1;
+  background-color: var(--primaryColor);
+  padding: 5px;
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  @include cellBorder();
+}
